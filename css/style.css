@@ -1,0 +1,72 @@
+/* PT Sans - svi stilovi (import sa fonts.google.com) */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    font-family: "PT Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.badge:hover {
+    color: #D1C4E9;
+}
+
+.bx-wrapper {
+    margin-bottom: 0.75rem;
+}
+
+.header_container {
+    background-color: #F5F5F5;
+}
+
+.close-modal { 
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    border: 0.3125rem solid #BDBDBD;
+    background-color: #616161;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_novel {
+    background-color: #F9FBE7;
+    font-weight: bold;
+}
+
+.category_ln {
+    background-color: #F3E5F5;
+    font-weight: bold;
+}
+
+#bookworm-modal, #help-tooltip, #poirot-modal, #hyperion {
+    min-width: 20rem;
+    max-width: 40rem;
+    width: 50vw;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 0.3125rem solid #BDBDBD;
+    border-radius: 0.75rem;
+    position: relative;
+
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
